@@ -4,6 +4,8 @@
 
 '''
 
+import numpy as np
+
 
 # Define the single flare model
 def aflare(t, p=[0.0, 1.0, 1.0]):

@@ -6,7 +6,7 @@ readcol,'/Users/james/research/flaremorph/gj1243_master_lc.dat',t,f,e
 x = where(t ge 549.725 and t le 549.965)
 
 ; zero it
-f2 = (f[x] - median(f)) - 0.75d4
+f2 = (f[x] - median(f)) - 0.65d4
 ; / median(f) - 0.025
 
 ; dump the flare to text file

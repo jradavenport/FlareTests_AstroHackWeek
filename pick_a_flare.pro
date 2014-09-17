@@ -20,5 +20,9 @@ f2 = f[x] - poly(t[x], fit)
 forprint, t[x], f2-min(f2), textout='davenport_flare1.txt', f='(D,D)', /nocomm
 
 
+
+x2 = where(t ge 1130.1 and t le 1132.1)
+forprint, t[x2], f[x2], /nocomm, textout='davenport_lcsample.txt',f='(D,D)'
+
 stop
 end
